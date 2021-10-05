@@ -1,0 +1,105 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-size: 1.2em;
+  font-family: Roboto Slab;
+  width: 100vw;
+  line-height: 20px;
+}
+
+div,
+section,
+span,
+ul,
+li,
+a,
+header {
+  box-sizing: border-box;
+}
+
+/*css reset*/
+
+header {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  padding: 20px 50px;
+  align-items: center;
+  position: fixed;
+  z-index: 999;
+}
+
+#menu div {
+  list-style: none;
+  display: inline-block;
+  margin: 20px;
+}
+
+#menu div a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+section {
+  width: 100%;
+  float: left;
+  height: 100vh;
+  position: relative;
+}
+
+#first {
+  background-color: #f25022;
+}
+
+#second {
+  background-color: #7fba00;
+}
+
+#third {
+  background-color: #00a4ef;
+}
+
+#fourth {
+  background-color: #ffb900;
+}
+
+#fifth {
+  background-color: #f25022;
+}
+
+#sixt {
+  background-color: #7fba00;
+}
+
+#bronnen {
+  background-color: #00a4ef;
+}
+
+p {
+  background-color: white;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: black;
+  padding: 8px;
+}
+
+span {
+  font-weight: bold;
+  font-size: 1.5em;
+}
+
+img {
+  width: 75px;
+  height: auto;
+}
